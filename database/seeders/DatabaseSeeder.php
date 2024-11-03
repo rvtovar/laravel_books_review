@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Book;
-use App\Models\Review;
-use App\Models\User;
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Models\Book;
+use App\Models\Models\Review;
 use Illuminate\Database\Seeder;
+
+// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class DatabaseSeeder extends Seeder
 {

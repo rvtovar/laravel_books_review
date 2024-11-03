@@ -1,13 +1,17 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Book Reviews</title>
     @vite('resources/css/app.css')
+    @vite('resources/css/custom.css')
 </head>
+
 <body>
-<div class="container mx-auto px-4">
-    @yield('content')
-</div>
+    <div class="container mx-auto mt-10 mb-10 max-w-3xl">
+        @yield('content')
+    </div>
 </body>
+
 </html>
